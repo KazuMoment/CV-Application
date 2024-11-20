@@ -119,12 +119,12 @@ class _MyCVPageState extends State<MyCVPage> {
                   ),
                 ),
                 Positioned(
+                  bottom: -5,
+                  left: 80,
                   child: IconButton(
                     onPressed: selectImage,
                     icon: const Icon(Icons.add_a_photo),
                   ),
-                  bottom: -5,
-                  left: 80,
                 ),
               ]
             ),

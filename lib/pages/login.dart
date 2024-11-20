@@ -4,6 +4,8 @@ class LoginPage extends StatelessWidget {
   final TextEditingController usernameText = TextEditingController();
   final TextEditingController passwordText = TextEditingController();
 
+  LoginPage({super.key});
+
   void loginButton(BuildContext context) {
     String username = usernameText.text;
     String password = passwordText.text;
